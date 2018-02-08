@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Weather</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="weather.css"></link>
+</head>
+
+<body>
+	<h1 align="center">What's The Weather?</h1>
+	<div>
+		<div class="row mx-auto main">
+			<div class="col current">
+				<h4 align="center">Current</h4>
+				<canvas width="100" height="100" id="icon"></canvas>
+				<center><div id="city"></div></center>
+				<center><div id="summary"></div></center>
+				<div class="tags">Currently: &nbsp;<span id="current"></span></div>
+				<div class="tags">Wind Speed: &nbsp;<span id="wind"></span></div>
+				<div class="tags">Humidity: &nbsp;<span id="humidity"></span></div>
+				<div class="tags">UV Index: &nbsp;<span id="uv"></span></div>
+				<div class="tags">Visibility: &nbsp;<span id="visibility"></span></div>
+			</div>
+			<div class="col scrolling">
+				<h4 align="center">Forecast</h4>
+				<div id="scrollingf"></div>
+			</div>
+		</div>
+	</div>	
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" scrossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="weather.js"></script>
+<script type="text/javascript" src="skycons.js"></script>
+</body>
+
+</html>

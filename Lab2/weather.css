@@ -1,0 +1,45 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: lightgrey;
+}
+
+.main {
+	width:700px;
+	height:400px;
+	margin-top: 60px;
+}
+
+.current {
+	margin-right: 10px;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.scrolling {
+	margin-left: 10px;
+	border-style:solid;
+	border-radius: 5px;
+	background-color: white;
+	overflow: hidden;
+}
+
+#icon {
+	margin-left: 100px;
+}
+
+#city {
+	font-size:20px;
+	font-style: bold;
+}
+
+.tags {
+	width:200px;
+	font-style: bold;
+	margin-left: 50px;
+	margin-top: 3px;
+}
+
+#current,#wind,#humidity,#uv,#visibility {
+	float:right;
+}

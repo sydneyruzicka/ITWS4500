@@ -1,0 +1,42 @@
+body {
+	background-color: #ddf6ff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-style: bold;
+	margin-top: 20px;
+	color: #0084b4;
+}
+
+.logo {
+	height: 50px;
+}
+.tweets {
+	margin-top: 50px;
+	border-style: solid;
+	border-color: white;
+	width:700px;
+	height:305px;
+	background-color: #0084b4;
+	overflow-y: hidden;
+}
+
+.text {
+	color:white;
+	font-size:12px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+img {
+	margin:5px;
+}
+
+.user {
+	font-style: italic;
+	font-size:10px;
+	color:white;
+	margin-top: 20px;
+}
+
